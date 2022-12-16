@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/pvvitali/react-food/static/css/main.da03df9e.css",
-    "main.js": "/pvvitali/react-food/static/js/main.5e490f3f.js",
-    "index.html": "/pvvitali/react-food/index.html",
-    "main.da03df9e.css.map": "/pvvitali/react-food/static/css/main.da03df9e.css.map",
-    "main.5e490f3f.js.map": "/pvvitali/react-food/static/js/main.5e490f3f.js.map"
+    "main.css": "/react-food/static/css/main.da03df9e.css",
+    "main.js": "/react-food/static/js/main.5e490f3f.js",
+    "index.html": "/react-food/index.html",
+    "main.da03df9e.css.map": "/react-food/static/css/main.da03df9e.css.map",
+    "main.5e490f3f.js.map": "/react-food/static/js/main.5e490f3f.js.map"
   },
   "entrypoints": [
     "static/css/main.da03df9e.css",
