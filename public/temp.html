@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="reg_form">
+        <h1>Форма регистрации</h1>
+
+        <form action="register.php" method="post">
+            <input type="hidden" name="id" value="123456">
+
+            <ul class="reg_list">
+                <li>
+                    <div class="reg_title">Имя:</div>
+                    <input class="reg_input" type="text" name="fio" value="">
+                </li>
+                <li>
+                    <div class="reg_title">Пол:</div>
+                    <input type="radio" name="sex" value="1" checked> M
+                    <input type="radio" name="sex" value="2"> Ж
+                </li>
+
+                <li>
+                    <div class="reg_title">Город:</div>
+                    <select class="reg_select" name="sity" id="sity">
+                        <option value="Moscow">Moscow</option>
+                        <option value="Chisinau">Chisinau</option>
+                        <option value="Peterburg">Peterburg</option>
+                    </select>
+                </li>
+                <li>
+                    <div class="reg_title">Пароль:</div>
+                    <input class="reg_input" type="password" name="pass" value="">
+                </li>
+
+                <li>
+                    <textarea name="descr" id="textar" cols="40" rows="5" placeholder="Что то о себе"></textarea>
+                </li>
+                <li>
+                    <input type="checkbox" name="agree">
+                    <span class="reg_agree">Регистрируясь вы принимаеие пользовательское соглашение</span>
+                </li>
+            </ul>
+
+            <div id="reg_control">
+                <div style="float:left"><input class="reg_button" type="submit" value="Зарегистрироваться"></div>
+                <div style="float:right"><input class="reg_button" type="reset" value="Очистить форму"></div>
+            </div>
+
+        </form>
+        <div>
+            <input type="date" name="" id="">
+        </div>
+    </div>
+</body>
+</html>
